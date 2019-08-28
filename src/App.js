@@ -14,10 +14,6 @@ function App() {
               <DataComp />
             </div>
           </div>
-          <div className="buttons-parent">
-            <button className="previous-button">{'< Previous'}</button>
-            <button className='next-button'>{'Next >'}</button>
-          </div>
       </div>
     </div>
   );
