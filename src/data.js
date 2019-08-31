@@ -209,7 +209,7 @@ const data = [
       "Slipstream",
       "Shaggy D.A., The"
     ]
-  },
+  }, 
   {
     id: 20,
     name: { first: "Adena", last: "Colbrun" },

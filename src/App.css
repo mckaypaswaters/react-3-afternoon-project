@@ -22,48 +22,32 @@
 .home-logo {
   margin-left: 50px;
 }
-
 .white-box-parent {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
+  margin-top: 15vh;
 }
-
-.data-white-box {
-  width: 80vw;
-  height: 50vh;
+.white-box {
   background: white;
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
+  width: 80vw;
+  height: 60vh;
 }
-
+.buttons-parent {
+  display: flex;
+  justify-content: space-evenly;
+}
 .previous-button {
   background: rgb(31, 29, 29);
   color: white;
   height: 5vh;
   font-size: 20px;
   border: none;
-  margin-right: 375px;
-  margin-top: 5px;
 }
-
 .next-button {
   background: rgb(31, 29, 29);
   color: white;
   height: 5vh;
   font-size: 20px;
   border: none;
-  margin-left: 375px;
-  margin-top: 5px;
-}
-
-.counter-parent {
-  display: flex;
-  position: absolute;
-}
-
-.counter {
-  margin-left: 625px;
 }
