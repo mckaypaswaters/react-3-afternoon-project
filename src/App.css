@@ -43,6 +43,7 @@
   height: 5vh;
   font-size: 20px;
   border: none;
+  margin-right: 25vw;
 }
 .next-button {
   background: rgb(31, 29, 29);
@@ -50,4 +51,60 @@
   height: 5vh;
   font-size: 20px;
   border: none;
+  margin-left: 25vw;
+}
+.counter-parent {
+  display: flex;
+  justify-content: right;
+}
+.counter {
+  margin-right: 2vw;
+}
+.another-parent {
+  display: flex;
+  justify-content: left;
+}
+.another-parent-2 {
+  display: flex;
+  justify-content: left;
+}
+.another-parent-3 {
+  display: flex;
+  justify-content: left;
+}
+.another-parent-4 {
+  display: flex;
+  justify-content: left;
+}
+.another-parent-5 {
+  display: flex;
+  justify-content: left;
+}
+.another-parent-6 {
+  display: flex;
+  justify-content: left;
+}
+.data-in-box {
+  margin-left: 5vw;
+}
+.name {
+  margin: 1vh;
+}
+.from {
+  margin: 1vh;
+  /* font-weight: 100; */
+}
+.job-title {
+  margin: 1vh;
+}
+.employer {
+  margin: 1vh;
+}
+.favorite-movies {
+  margin: 1vh;
+}
+.ordered-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }

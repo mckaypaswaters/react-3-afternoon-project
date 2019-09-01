@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import DataComp from './DataComp'
 import ButtonBar from './ButtonBar'
+import data from './data';
 
 class App extends Component {
   constructor() {
@@ -12,10 +13,14 @@ class App extends Component {
   }
 
   updateStateAdd(){
+    if (this.state.dataIndex <= data.length - 2){
     this.setState({dataIndex: this.state.dataIndex + 1})
+    }
   }
   updateStateSubtract(){
+    if (this.state.dataIndex >= 1) {
     this.setState({dataIndex: this.state.dataIndex - 1})
+    }
   }
 
   updateStateAdd = this.updateStateAdd.bind(this)
